@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <%= simple_form_for restaurant do |f| %>
+        <%= f.input :name, placeholder: 'Please, enter the restaurant name' %>
+          <%= f.input :category, placeholder: 'Indicate the category' %>
+        <%= f.input :address, placeholder: 'Enter the address' %>
+        <%= f.input :phone_number, placeholder: 'Enter a phone number' %>
+        <%= f.submit class: 'btn btn-primary' %>
+      <% end %>
+    </div>
+  </div>
+</div>

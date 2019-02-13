@@ -1,0 +1,14 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h1 class="text-center"><%= @restaurant.name %></h1>
+      <h2>Address:<%= @restaurant.address %></h2>
+      <p>Telephone:<%= @restaurant.phone_number %><p>
+      <p><%= link_to "Review this restaurant", new_restaurant_review_path(@restaurant[:restaurant_id]), class: 'btn btn-link' %><p>
+      <p><%= link_to 'back', restaurants_path, class: 'btn btn-link' %><p>
+
+    </div>
+  </div>
+</div>
+
