@@ -110,7 +110,6 @@ GEM
     minitest (5.14.4)
     msgpack (1.4.2)
     nio4r (2.5.8)
-
     nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
     public_suffix (4.0.6)
@@ -140,8 +139,8 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.4.3)
-      loofah (~> 2.3)
+    rails-html-sanitizer (1.4.4)
+      loofah (~> 2.19, >= 2.19.1)
     railties (5.2.6)
       actionpack (= 5.2.6)
       activesupport (= 5.2.6)
